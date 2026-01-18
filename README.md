@@ -1,17 +1,10 @@
-# AQI Prediction Benchmark: Data and Code
-
-This repository provides the data and source code used in the study:
-
-**“A Governance- and Health-Oriented Review of Air Quality Index Prediction: Models, Mechanisms, and Reproducible Benchmarks”**
-
-The repository is designed to ensure full reproducibility of all data processing, AQI construction, model training, and evaluation results reported in the paper.
-
----
-
-## 1. Data Description
+## Data Description
 
 All data used in this study are publicly available environmental and meteorological observations collected between **2014 and 2025**.
 
-### 1.1 Raw and Processed Data
+The repository includes both the original yearly datasets and the processed datasets used for model training and evaluation. Raw air quality and meteorological records are provided in year-wise files, while merged and cleaned datasets are supplied for direct reproducibility.
+
+The file **ALL.xlsx** represents the final unified dataset used across all benchmark models reported in the paper. It integrates air quality indicators, meteorological variables, and derived AQI values following the Chinese Ambient Air Quality Index standard (HJ 633–2012).
+
 
 
